@@ -755,4 +755,3 @@ elif menu == "🖩 Kalkulator Titrasi":
         st.markdown("### 📋 Ringkasan Rumus")
         formula_card("Rumus Umum", "% = (N × V × BE) / (1000 × m_sampel) × 100%")
         formula_card("BE Analit", f"BE = {bm}/{val} = {bm/val:.4f} g/ekivalen" if hitung else "BE = BM / valensi")
- 
