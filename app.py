@@ -1,13 +1,9 @@
 """ Sistem Informasi Titrimetri - Streamlit App Jalankan: streamlit run app.py """
 
 import streamlit as st import math
-
-─────────────────────────────────────────────
 KONFIGURASI HALAMAN
 ─────────────────────────────────────────────
-st.set_page_config( page_title="Sistem Informasi Titrimetri", page_icon="⚗", layout="wide", initial_sidebar_state="expanded", )
-
-─────────────────────────────────────────────
+st.set_page_config( page_title="Sistem Informasi Titrimetri", page_icon="⚗", layout="wide", initial_sidebar_state="expanded", 
 CSS KUSTOM
 ─────────────────────────────────────────────
 st.markdown("""
